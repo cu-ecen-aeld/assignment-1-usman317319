@@ -1,0 +1,448 @@
+Running test with user muhammad
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Generating ;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/student-test/assignment1/Test_validate_username.c: In function ‘test_validate_my_username’:
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/student-test/assignment1/Test_validate_username.c:21:89: error: macro "TEST_ASSERT_TRUE_MESSAGE" passed 3 arguments, but takes just 2
+   21 |     TEST_ASSERT_TRUE_MESSAGE(malloc_username_from_conf_file,my_username(), "Test Passed");
+      |                                                                                         ^
+In file included from /home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/student-test/assignment1/Test_validate_username.c:1:
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/Unity/src/unity.h:394: note: macro "TEST_ASSERT_TRUE_MESSAGE" defined here
+  394 | #define TEST_ASSERT_TRUE_MESSAGE(condition, message)                                               UNITY_TEST_ASSERT(       (condition), __LINE__, (message))
+      | 
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/student-test/assignment1/Test_validate_username.c:21:5: error: ‘TEST_ASSERT_TRUE_MESSAGE’ undeclared (first use in this function)
+   21 |     TEST_ASSERT_TRUE_MESSAGE(malloc_username_from_conf_file,my_username(), "Test Passed");
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/student-test/assignment1/Test_validate_username.c:21:5: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:119: assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:130: assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+Executing assignment test script
+~/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1 ~/Desktop/Linux/assignments/assignment-1-usman317319
+~/Desktop/Linux/assignments/assignment-1-usman317319/finder-app ~/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1 ~/Desktop/Linux/assignments/assignment-1-usman317319
+[0;31mFile and String Value Missing[0m
+[0;31mExiting...[0m
+[0;31mString Value Missing[0m
+[0;31mExiting...[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+[0;32mCreating Directory...[0m
+[0;32mDirectory Created Successfully
+Attempting writing data to the /tmp/aeld-data/usman3173191.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173192.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173193.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173194.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173195.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173196.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173197.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173198.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173199.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman31731910.txt
+[0;32mData Writing Completed Successfully...[0m
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173191.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173191.txt
+./writer.sh: line 37: /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173191.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173192.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173192.txt
+./writer.sh: line 37: /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173192.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173193.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173193.txt
+./writer.sh: line 37: /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173193.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173194.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173194.txt
+./writer.sh: line 37: /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173194.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173195.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173195.txt
+./writer.sh: line 37: /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173195.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173196.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173196.txt
+./writer.sh: line 37: /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173196.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173197.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173197.txt
+./writer.sh: line 37: /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173197.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173198.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173198.txt
+./writer.sh: line 37: /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173198.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173199.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173199.txt
+./writer.sh: line 37: /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman3173199.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman31731910.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman31731910.txt
+./writer.sh: line 37: /tmp/aeld-data/b3Jo9dumkpWhMCysKPi9XaJls4MplaR9/usman31731910.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user muhammad
+-- Generating ;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/student-test/assignment1/Test_validate_username.c: In function ‘test_validate_my_username’:
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/student-test/assignment1/Test_validate_username.c:21:96: error: macro "TEST_ASSERT_TRUE_MESSAGE" passed 3 arguments, but takes just 2
+   21 |     TEST_ASSERT_TRUE_MESSAGE(malloc_username_from_conf_file(),my_username(), "Assertion Passed");
+      |                                                                                                ^
+In file included from /home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/student-test/assignment1/Test_validate_username.c:1:
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/Unity/src/unity.h:394: note: macro "TEST_ASSERT_TRUE_MESSAGE" defined here
+  394 | #define TEST_ASSERT_TRUE_MESSAGE(condition, message)                                               UNITY_TEST_ASSERT(       (condition), __LINE__, (message))
+      | 
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/student-test/assignment1/Test_validate_username.c:21:5: error: ‘TEST_ASSERT_TRUE_MESSAGE’ undeclared (first use in this function)
+   21 |     TEST_ASSERT_TRUE_MESSAGE(malloc_username_from_conf_file(),my_username(), "Assertion Passed");
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/student-test/assignment1/Test_validate_username.c:21:5: note: each undeclared identifier is reported only once for each function it appears in
+make[2]: *** [assignment-autotest/CMakeFiles/assignment-autotest.dir/build.make:119: assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:130: assignment-autotest/CMakeFiles/assignment-autotest.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
+./unit-test.sh: line 13: ./build/assignment-autotest/assignment-autotest: No such file or directory
+Unit test failed
+Executing assignment test script
+~/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1 ~/Desktop/Linux/assignments/assignment-1-usman317319
+~/Desktop/Linux/assignments/assignment-1-usman317319/finder-app ~/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1 ~/Desktop/Linux/assignments/assignment-1-usman317319
+[0;31mFile and String Value Missing[0m
+[0;31mExiting...[0m
+[0;31mString Value Missing[0m
+[0;31mExiting...[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+[0;32mCreating Directory...[0m
+[0;32mDirectory Created Successfully
+Attempting writing data to the /tmp/aeld-data/usman3173191.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173192.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173193.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173194.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173195.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173196.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173197.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173198.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173199.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman31731910.txt
+[0;32mData Writing Completed Successfully...[0m
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173191.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173191.txt
+./writer.sh: line 37: /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173191.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173192.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173192.txt
+./writer.sh: line 37: /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173192.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173193.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173193.txt
+[0;32mData Writing Completed Successfully...[0m
+./writer.sh: line 37: /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173193.txt: No such file or directory
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173194.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173194.txt
+./writer.sh: line 37: /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173194.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173195.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173195.txt
+./writer.sh: line 37: /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173195.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173196.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173196.txt
+./writer.sh: line 37: /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173196.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173197.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173197.txt
+./writer.sh: line 37: /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173197.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173198.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173198.txt
+./writer.sh: line 37: /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173198.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173199.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173199.txt
+./writer.sh: line 37: /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman3173199.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman31731910.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman31731910.txt
+./writer.sh: line 37: /tmp/aeld-data/IccvSPbzw4x7W8SDDzJTF0A5hY15Fbv0/usman31731910.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user muhammad
+-- Generating ;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Read usman317319 from conf/username.txt
+/home/muhammad/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1 ~/Desktop/Linux/assignments/assignment-1-usman317319
+~/Desktop/Linux/assignments/assignment-1-usman317319/finder-app ~/Desktop/Linux/assignments/assignment-1-usman317319/assignment-autotest/test/assignment1 ~/Desktop/Linux/assignments/assignment-1-usman317319
+[0;31mFile and String Value Missing[0m
+[0;31mExiting...[0m
+[0;31mString Value Missing[0m
+[0;31mExiting...[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+[0;32mCreating Directory...[0m
+[0;32mDirectory Created Successfully
+Attempting writing data to the /tmp/aeld-data/usman3173191.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173192.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173193.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173194.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173195.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173196.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173197.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173198.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman3173199.txt
+[0;32mData Writing Completed Successfully...[0m
+Attempting writing data to the /tmp/aeld-data/usman31731910.txt
+[0;32mData Writing Completed Successfully...[0m
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173191.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173191.txt
+./writer.sh: line 37: /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173191.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173192.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173192.txt
+./writer.sh: line 37: /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173192.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173193.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173193.txt
+./writer.sh: line 37: /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173193.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173194.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173194.txt
+./writer.sh: line 37: /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173194.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173195.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173195.txt
+./writer.sh: line 37: /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173195.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173196.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173196.txt
+./writer.sh: line 37: /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173196.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173197.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173197.txt
+./writer.sh: line 37: /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173197.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173198.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173198.txt
+./writer.sh: line 37: /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173198.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173199.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173199.txt
+./writer.sh: line 37: /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman3173199.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;32mCreating Directory...[0m
+mkdir: cannot create directory ‘/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt’: No such file or directory
+[0;32mDirectory Created Successfully
+touch: cannot touch '/tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman31731910.txt': No such file or directory
+Attempting writing data to the /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman31731910.txt
+./writer.sh: line 37: /tmp/aeld-data/2PcUz8h1RmUK4y5n3YgK7sCX1eUEcFAt/usman31731910.txt: No such file or directory
+[0;32mData Writing Completed Successfully...[0m
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
